@@ -1,5 +1,6 @@
 # Checks the upstream mdre releases every 4 hours and opens a pull request
 # bumping the manifests (version + hash) when a new tag is found.
+# Modeled on the Excavator workflow used by ScoopInstaller/Main.
 name: Excavator
 
 on:
