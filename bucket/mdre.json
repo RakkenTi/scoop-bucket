@@ -8,7 +8,7 @@
         "64bit": {
             "url": "https://github.com/RakkenTi/mdre/releases/download/v0.1.1/mdre-v0.1.1-x86_64-pc-windows-msvc.zip",
             "hash": "16b6b4142cb7b68e388887bef14def3547bbde062ddd5be21372118d4c003ede",
-            "extract_dir": "mdre-v$version-x86_64-pc-windows-msvc"
+            "extract_dir": "mdre-v0.1.1-x86_64-pc-windows-msvc"
         }
     },
     "bin": "mdre.exe",
@@ -18,7 +18,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RakkenTi/mdre/releases/download/v$version/mdre-v$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/RakkenTi/mdre/releases/download/v$version/mdre-v$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "mdre-v$version-x86_64-pc-windows-msvc"
             }
         }
     }
