@@ -13,6 +13,3 @@
 scoop bucket add rakkenti https://github.com/RakkenTi/scoop-bucket
 scoop install mdre
 ```
-
-Upgrade with `scoop update mdre`. The Excavator workflow keeps the manifests
-in sync with new releases automatically.
